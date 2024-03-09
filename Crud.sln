@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -6,6 +6,8 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AD93A69F-F739-4FAD-AE3C-B46448082019}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crud.Api", "src\Crud.Api\Crud.Api.csproj", "{19ADCF26-2963-4737-9069-43B2E9FF3440}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{ECCCC91E-FE67-4125-930D-9CD9FB8914A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,6 +24,7 @@ Global
 		{19ADCF26-2963-4737-9069-43B2E9FF3440}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{ECCCC91E-FE67-4125-930D-9CD9FB8914A5} = {AD93A69F-F739-4FAD-AE3C-B46448082019}
 		{19ADCF26-2963-4737-9069-43B2E9FF3440} = {AD93A69F-F739-4FAD-AE3C-B46448082019}
 	EndGlobalSection
 EndGlobal
