@@ -1,6 +1,0 @@
-@Crud.Api.csproj_HostAddress = http://localhost:5089
-
-GET {{Crud.Api.csproj_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
